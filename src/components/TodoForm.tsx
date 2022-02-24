@@ -26,11 +26,11 @@ export const TodoForm: React.FC<TodoFormProps> = (props) => {
                 ref={ref}
                 type="text"
                 id="title"
-                placeholder="Введите название дела"
+                placeholder="What will you focus on Today?"
                 onKeyPress={keyPressHandler}
             />
             <label htmlFor="title" className="active">
-                Введите название дела
+            What will you focus on Today?
             </label>
         </div>
   );

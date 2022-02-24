@@ -13,7 +13,7 @@ export const TodoList: React.FC<TodoListProps> = ({
                                                       onToggle
                                                   }) => {
     if (todos.length === 0) {
-        return <p className="center">Пока дел нет!</p>
+        return <p className="center">As long as there are no cases!</p>
     }
 
     const removeHandler = (event: React.MouseEvent, id: number) => {
